@@ -1,0 +1,47 @@
+.container-fluid {
+  background-image: url('../../assets/1511.jpg');
+  height: 550px;
+  /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-left: 3px solid #212529;
+  border-right: 3px solid  #212529;
+  display: block;
+}
+
+p {
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  padding: 20px 20px;
+  color: #212529;
+}
+
+h3 {
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  padding-top: 20px;
+  color: #212529;
+}
+
+@media only screen and (max-width: 600px) {
+    .box {
+        margin-left: auto;
+       width: auto;
+        border-left: 0px;
+        border-right: 0px;
+        margin-top: 35%;
+        margin-bottom: auto;
+    }
+}

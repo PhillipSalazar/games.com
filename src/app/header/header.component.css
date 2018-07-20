@@ -1,0 +1,18 @@
+
+.container-fluid {
+  background-image: url('../../assets/1511.jpg');
+  height: 300px;
+  /* Create the parallax scrolling effect */
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  font-size: 56px;
+  padding-top: 80px;
+}

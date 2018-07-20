@@ -1,0 +1,19 @@
+.container-fluid {
+  height: 200px;
+  background-color: black;
+}
+
+p {
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+    p {
+        margin-top: 15%;
+    }
+
+    .container-fluid {
+      height: 150px;
+    }
+}

@@ -1,0 +1,51 @@
+.container-fluid {
+
+}
+img {
+  width: 250px;
+
+
+
+}
+
+.boxes {
+  height: 250px;
+  width: 250px;
+  color: white;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  float: left;
+}
+
+.bottom {
+
+/* bottom: 0; */
+ color: #212529;
+ text-align: center;
+ text-wrap: normal;
+ margin-top: 5%;
+
+/* margin-left: 3%; */
+}
+
+p {
+    font-family: 'Bungee', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxes {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      float: none;
+
+
+    }
+
+    .row {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+}
